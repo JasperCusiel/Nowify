@@ -15,7 +15,13 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Install 🔧
+      - name: Install Python 🔧
+        run: sudo apt-get install python
+
+      - name: Install Build Essentials 🔧
+        run: sudo apt-get install build-essential
+
+      - name: Install Dependencies 🔧
         run: yarn install
 
       - name: Build 🏗️
