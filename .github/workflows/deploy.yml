@@ -15,8 +15,8 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Install Python 🔧
-        run: sudo apt-get install python
+      - name: Install Python 3 🔧
+        run: sudo apt-get install python3
 
       - name: Install Build Essentials 🔧
         run: sudo apt-get install build-essential
